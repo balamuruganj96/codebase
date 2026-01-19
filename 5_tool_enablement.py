@@ -11,10 +11,10 @@ def multiply(a: int, b: int) -> int:
 
 
 llm = AzureChatOpenAI(
-    azure_endpoint="https://dbt-poc.openai.azure.com/",
-    azure_deployment="dbtpoc",
-    api_version="2024-12-01-preview",
-    model='GPT-4.1 nano'
+    azure_endpoint="",
+    azure_deployment="",
+    api_version="",
+    model=''
 )
 response=llm.invoke("what is 2*3 and then multiplied by 100")
 print(response.content)
