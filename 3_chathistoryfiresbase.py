@@ -24,9 +24,9 @@ Steps to replicate this example:
 load_dotenv()
 
 # Setup Firebase Firestore
-PROJECT_ID = "langchain801613"
-SESSION_ID = "balamurugan"  
-COLLECTION_NAME = "chat_history"
+PROJECT_ID = ""
+SESSION_ID = ""  
+COLLECTION_NAME = ""
 
 
 print("Initializing Firestore Client...")
